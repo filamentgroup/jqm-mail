@@ -8,4 +8,4 @@ Some highlights:
 - Independent column scrolling on wider viewports through the use of position: fixed (uses native browser scrolling)
 - Progressive enhancement driven
 
-[Demo URL: https://filamentgroup.github.com/jqm-mail/](http://filamentgroup.github.com/jqm-mail/)
+[Demo URL: http://filamentgroup.github.com/jqm-mail/](http://filamentgroup.github.com/jqm-mail/)
