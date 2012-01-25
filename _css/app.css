@@ -1,0 +1,179 @@
+/* app CSS */
+
+.ui-header form {
+	float: right;
+	margin: .3em;
+	width: 50%;
+}
+.ui-header form input {
+	padding: 0;
+}
+.ui-header form .ui-btn {
+	right: .4em;
+}
+.ui-header .ui-btn-inner {
+	border-top: none;
+}
+.tools {
+	position: absolute;
+	left: 15px;
+	top: .3em;
+	opacity: .7;
+}
+.tools a {
+	padding: .4em .5em;
+	border: 0;
+}
+.ui-page {
+	height: auto !important;
+}
+.nav-primary {
+	position: relative;
+	font-size: 90%;
+}
+
+
+/* email */
+.ui-content {
+	margin: 5px 0;
+}
+.ui-content .ui-listview {
+	margin: 0;
+}
+.ui-listview li.email-content {
+	padding: 0;
+}
+.email-breadcrumb .ui-btn {
+	position: relative;
+}
+.email-meta {
+	overflow: hidden;
+	margin: 2%;
+	padding: .5em;
+	font-size: .9em;
+}
+.email-meta dt {
+	clear: left;
+	font-weight: bold;
+	width: 50px;
+	text-align: right;
+	margin: .4em 0 .2em;
+}
+.email-meta dt,
+.email-meta dd {
+	float: left;
+	padding: .4em .6em;
+}
+.email-meta dd {
+	font-weight: normal;
+	padding-right: 28px;
+	position: relative;
+	line-height: 1.1;
+	margin: .4em .6em 0 0;
+}
+.email-meta dd .ui-select {
+	margin: 0;
+	position: absolute;
+	right: -.8em;
+	top: -.6em;
+}
+
+.email-body {
+	margin: 2%;
+	padding: 0 .5em;
+}
+.ui-listview .email-body p.ui-li-desc {
+	margin: .6em 0;
+	font-weight: normal;
+	font-size: 1.1em;
+	line-height: 1.4;
+	overflow: visible;
+	text-overflow: none;
+	white-space: normal;
+}
+.ui-collapsible,
+.ui-collapsible-content {
+	margin: 0 0;
+	padding: 0;
+}
+.ui-content {
+ padding: 0;
+}
+
+/* use collapsible to toggle sub-content */
+
+.ui-collapsible .ui-collapsible-heading {
+	display: none;
+}
+.ui-collapsible-content-collapsed,
+.ui-collapsible-collapsed .ui-collapsible-heading {
+	display: block;
+}
+.ui-collapsible-heading .ui-icon {
+	left: 1em;
+}
+
+
+.nav-primary {
+	display: block;
+}
+.email-primary {
+	display: none;
+}
+.ui-collapsible-content-collapsed .nav-primary {
+	display: none;
+}
+.ui-collapsible-content-collapsed .email-primary {
+	display: block;
+}
+
+
+
+
+
+@media screen and (min-width: 600px) and (min-height: 20em) {
+	.ui-collapsible-content-collapsed .nav-primary,
+	.email-primary {
+		display: block;
+	}
+	.email-primary {
+		left: auto;
+		position: relative;
+		display: block;
+	}
+	.ui-collapsible-collapsed .ui-collapsible-heading,
+	.ui-collapsible-heading {
+		display: none;
+	}
+	.nav-primary {
+		position: absolute;
+		left: 0;
+		display: block;
+		width: 35%;
+		border-width: 1px 1px 0 0;
+		margin-top: 10px;
+	}
+	.ui-mobile-supported-fixed .nav-primary {
+		position: fixed;
+	}	
+	.nav-primary ul,
+	.nav-primary li:first-child {
+		border-top: 0;
+	}
+	.nav-primary .ui-li-divider {
+		background: none;
+	}
+	.ui-content {
+		margin-left: 35%;
+		border-left-width: 1px;
+	}
+}
+
+@media screen and (min-width: 800px) and (min-height: 20em) {
+	.nav-primary {
+		width: 25%;
+	}
+	.ui-content {
+		margin-left: 25%;
+	}
+}

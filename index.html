@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>jQM Mail</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="_css/jqm.css" rel="stylesheet" />
+	<link href="_css/app.css" rel="stylesheet" />
+	<script src="_js/jquery.js"></script>
+	<script src="_js/app.js"></script>
+	<script src="_js/jqm.js"></script>
+</head>
+<body>
+	
+	<div data-role="header" data-position="fixed" data-theme="b">
+		
+		<div class="tools" data-role="controlgroup" data-type="horizontal">
+			<a href="#" data-role="button" data-icon="refresh" data-iconpos="notext" data-theme="b">Refresh</a>
+			<a href="#"data-role="button" data-icon="delete"data-iconpos="notext" data-theme="b">Delete</a>
+			<a href="#"data-role="button" data-icon="gear"data-iconpos="notext" data-theme="b" >Settings</a>
+		</div>
+		
+		<form>
+				<input type="search" data-theme="d">
+		</form>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	<div data-role="content" data-theme="d">
+		
+		<div data-role="collapsible" data-theme="b" data-collapsed="false">
+			<h2>Mailboxes</h2>
+		
+			<nav class="nav-primary">
+				<ul data-role="listview" data-theme="d">
+					<li  data-role="list-divider">Inboxes <span class="ui-li-count">7</span></li>
+					<li><a href="#">scott@home.com <span class="ui-li-count">4</span></a></li>
+					<li data-theme="b"><a href="#">scott@work.com <span class="ui-li-count">3</span></a></li>
+					<li  data-role="list-divider">Other Mailboxes <span class="ui-li-count">7</span></li>
+					<li><a href="#">Sent <span class="ui-li-count">45</span></a></li>
+					<li><a href="#">Outbox <span class="ui-li-count">0</span></a></li>
+					<li><a href="#">Trash<span class="ui-li-count">423</span></a></li>
+				</ul>
+			</nav>
+		
+		
+		<div class="email-primary">	
+		
+		
+		<ul data-role="listview">
+			<li data-role="list-divider">Friday, October 8, 2010 <span class="ui-li-count">2</span></li>
+			<li data-icon="arrow-d"><a href="#">
+				
+					<h3>Stephen Weber</h3>
+					<p><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
+					<p>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
+					<p class="ui-li-aside"><strong>6:24</strong>PM</p>
+				
+			</a></li>
+			
+			<li data-icon="arrow-d"><a href="#">
+				<h3>Mike Taylor</h3>
+				<p><strong>This weekend in Maine</strong></p>
+				<p>Sounds good, let me check into our plans.</p>
+				<p class="ui-li-aside"><strong>6:24</strong>AM</p>
+			</a></li>
+			
+			
+			
+			<li class="ui-li email-content">
+					
+		
+		
+					<dl class="email-meta ui-body-c">
+							<dt>From:</dt>
+							<dd class="ui-btn-up-c ui-corner-all">Todd Parker
+								<select data-iconpos="notext" data-shadow="false">
+									<option>Actions</option>
+									<option>Send email to this address</option>
+									<option>Add to address book</option>
+									<option>Find messages from this address</option>
+								</select>
+							</dd>
+							<dt>To:</dt>
+							<dd class="ui-btn-up-c ui-corner-all">Scott Jehl
+								<select data-iconpos="notext" data-shadow="false">
+									<option>Actions</option>
+									<option>Send email to this address</option>
+									<option>Add to address book</option>
+									<option>Find messages from this address</option>
+								</select>
+							</dd>
+							<dd class="ui-btn-up-c ui-corner-all">Maggie Wachs
+								<select data-iconpos="notext" data-shadow="false">
+									<option>Actions</option>
+									<option>Send email to this address</option>
+									<option>Add to address book</option>
+									<option>Find messages from this address</option>
+								</select>
+							</dd>
+					
+							<dd class="ui-btn-up-c ui-corner-all">Patty Toland
+								<select data-iconpos="notext" data-shadow="false">
+									<option>Actions</option>
+									<option>Send email to this address</option>
+									<option>Add to address book</option>
+									<option>Find messages from this address</option>
+								</select>
+							</dd>
+				
+							<dd class="ui-btn-up-c ui-corner-all">Mat Marquis
+								<select data-iconpos="notext" data-shadow="false">
+									<option>Actions</option>
+									<option>Send email to this address</option>
+									<option>Add to address book</option>
+									<option>Find messages from this address</option>
+								</select>
+							</dd>
+				
+							<dt>Date:</dt>
+							<dd>January 23, 2012 9:22 AM</dd>
+							<dt>Subject:</dt>
+							<dd>Bugs with jQM Mail app</dd>
+					</dl>
+		
+					<div class="email-body">
+						<p>Hey Scott,</p>
+						<p>Have you tested this thing anywhere yet? It looks okay, but it doesn't do anything!</p>
+			
+						<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+			
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+			
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+			
+						<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+			
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+			
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+			
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+			
+					
+			
+					</div>
+					
+			</li>
+			<li data-icon="arrow-d"><a href="#">
+				
+				<h3>jQuery Team</h3>
+				<p><strong>Boston Conference Planning</strong></p>
+				<p>In preparation for the upcoming conference in Boston, we need to start gathering a list of sponsors and speakers.</p>
+				<p class="ui-li-aside"><strong>9:18</strong>AM</p>
+				
+			</a></li>
+			<li data-role="list-divider">Thursday, October 7, 2010 <span class="ui-li-count">1</span></li>
+			<li data-icon="arrow-d"><a href="#">
+				<h3>Avery Walker</h3>
+				<p><strong>Re: Dinner Tonight</strong></p>
+				<p>Sure, let's plan on meeting at Highland Kitchen at 8:00 tonight. Can't wait! </p>
+				<p class="ui-li-aside"><strong>4:48</strong>PM</p>
+			</a></li>
+			<li data-role="list-divider">Wednesday, October 6, 2010 <span class="ui-li-count">3</span></li>
+			<li data-icon="arrow-d"><a href="#">
+				<h3>Amazon.com</h3>
+				<p><strong>4-for-3 Books for Kids</strong></p>
+				<p>As someone who has purchased children's books from our 4-for-3 Store, you may be interested in these featured books.</p>
+				<p class="ui-li-aside"><strong>12:47</strong>PM</p>
+			</a></li>
+			<li data-icon="arrow-d"><a href="#">
+				<h3>Mike Taylor</h3>
+				<p><strong>Re: This weekend in Maine</strong></p>
+				<p>Hey little buddy, sorry but I can't make it up to vacationland this weekend. Maybe next weekend?</p>
+				<p class="ui-li-aside"><strong>6:24</strong>AM</p>
+			</a></li>
+			<li data-icon="arrow-d"><a href="#">
+				<h3>Redfin</h3>
+				<p><strong>Redfin listing updates for today</strong></p>
+				<p>There are 3 updates for the home on your watchlist: 1 updated MLS listing and 2 homes under contract.</p>
+				<p class="ui-li-aside"><strong>5:52</strong>AM</p>
+			</a></li>
+			<li data-role="list-divider">Tuesday, October 5, 2010 <span class="ui-li-count">3</span></li>
+			<li data-icon="arrow-d"><a href="#">
+				<h3>Angela Smith</h3>
+				<p><strong>Link Request</strong></p>
+				<p>My name is Angela Smith, SEO Consultant. I've greatly enjoyed looking through your site and I was wondering if you'd be interested in providing a link</p>
+				<p class="ui-li-aside"><strong>6:24</strong>AM</p>
+			</a></li>
+				
+			<li data-role="list-divider">Friday, October 8, 2010 <span class="ui-li-count">2</span></li>
+			<li data-icon="arrow-d"><a href="#">
+				
+					<h3>Stephen Weber</h3>
+					<p><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
+					<p>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
+					<p class="ui-li-aside"><strong>6:24</strong>PM</p>
+				
+			</a></li>
+			<li data-icon="arrow-d"><a href="#">
+				
+				<h3>jQuery Team</h3>
+				<p><strong>Boston Conference Planning</strong></p>
+				<p>In preparation for the upcoming conference in Boston, we need to start gathering a list of sponsors and speakers.</p>
+				<p class="ui-li-aside"><strong>9:18</strong>AM</p>
+				
+			</a></li>
+			<li data-role="list-divider">Thursday, October 7, 2010 <span class="ui-li-count">1</span></li>
+			<li data-icon="arrow-d"><a href="#">
+				<h3>Avery Walker</h3>
+				<p><strong>Re: Dinner Tonight</strong></p>
+				<p>Sure, let's plan on meeting at Highland Kitchen at 8:00 tonight. Can't wait! </p>
+				<p class="ui-li-aside"><strong>4:48</strong>PM</p>
+			</a></li>
+			<li data-role="list-divider">Wednesday, October 6, 2010 <span class="ui-li-count">3</span></li>
+			<li data-icon="arrow-d"><a href="#">
+				<h3>Amazon.com</h3>
+				<p><strong>4-for-3 Books for Kids</strong></p>
+				<p>As someone who has purchased children's books from our 4-for-3 Store, you may be interested in these featured books.</p>
+				<p class="ui-li-aside"><strong>12:47</strong>PM</p>
+			</a></li>
+			<li data-icon="arrow-d"><a href="#">
+				<h3>Mike Taylor</h3>
+				<p><strong>Re: This weekend in Maine</strong></p>
+				<p>Hey little buddy, sorry but I can't make it up to vacationland this weekend. Maybe next weekend?</p>
+				<p class="ui-li-aside"><strong>6:24</strong>AM</p>
+			</a></li>
+			<li data-icon="arrow-d"><a href="#">
+				<h3>Redfin</h3>
+				<p><strong>Redfin listing updates for today</strong></p>
+				<p>There are 3 updates for the home on your watchlist: 1 updated MLS listing and 2 homes under contract.</p>
+				<p class="ui-li-aside"><strong>5:52</strong>AM</p>
+			</a></li>
+				<li data-role="list-divider">Tuesday, October 5, 2010 <span class="ui-li-count">3</span></li>
+				<li data-icon="arrow-d"><a href="#">
+					<h3>Angela Smith</h3>
+					<p><strong>Link Request</strong></p>
+					<p>My name is Angela Smith, SEO Consultant. I've greatly enjoyed looking through your site and I was wondering if you'd be interested in providing a link</p>
+					<p class="ui-li-aside"><strong>6:24</strong>AM</p>
+				</a></li>
+				<li data-icon="arrow-d"><a href="#">
+					<h3>Mike Taylor</h3>
+					<p><strong>This weekend in Maine</strong></p>
+					<p>Sounds good, let me check into our plans.</p>
+					<p class="ui-li-aside"><strong>6:24</strong>AM</p>
+				</a></li>
+				
+		</ul>
+		
+		</div><!--/email-primary-->
+		
+
+		
+		
+	</div>
+	
+
+	
+</body>
+</html>
