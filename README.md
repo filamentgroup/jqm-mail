@@ -1,6 +1,8 @@
 jQM Mail
 =======================
 
+**NOTE** This repository has been retired. It will remain available for reference.
+
 Experimenting with a mobile-first, responsive app layout using jQuery Mobile components.
 
 Some highlights:
